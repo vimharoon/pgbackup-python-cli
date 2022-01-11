@@ -14,4 +14,4 @@ def dump_file_name(url, timestamp=None):
     if timestamp:
         return f"{db_name}-{timestamp}.sql"
     else:
-        return f"{db_name}.sql
+        return f"{db_name}.sql"
